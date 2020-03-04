@@ -7,6 +7,7 @@
 
 body {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(117, 111, 157, 1));
+    font-family: 'Mukta', sans-serif;
 }
 
 .container {
@@ -24,6 +25,12 @@ body {
         text-decoration: none;
         margin: 0 20px 0 20px;
         font-size: 1.5rem;
+        padding: 10px;
+    }
+    & :hover {
+        background-color: #756F9D;
+        color: white;
+        border-radius: 20px;
     }
 }
 
@@ -53,6 +60,10 @@ section {
         }
         p {
             @include p;
+            a {
+                text-decoration: none;
+                color: #262626;
+            }
         }
     }
 }
@@ -168,6 +179,67 @@ section {
         }
         p {
             @include p;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        width: 80%;
+        background-color: green;
+        margin: 0 auto;
+    }
+    .navigatie {
+        width: 50%;
+        margin: 0 auto;
+        a {
+            display: block;
+            text-align: center;
+        }
+        & :hover {
+            background-color: #756F9D;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+    section {
+        display: block;
+        .eerste,
+        .tweede {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    .werkervaring {
+        display: block;
+        .eerste,
+        .tweede {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    .opleidingen {
+        display: block;
+        .eerste,
+        .tweede {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    .skills {
+        display: block;
+        .eerste,
+        .tweede {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    .talen {
+        display: block;
+        .eerste,
+        .tweede {
+            width: 100%;
+            margin-bottom: 20px;
         }
     }
 }

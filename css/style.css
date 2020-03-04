@@ -8,6 +8,7 @@
 body {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(#756f9d));
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), #756f9d);
+  font-family: 'Mukta', sans-serif;
 }
 
 .container {
@@ -27,6 +28,13 @@ body {
   text-decoration: none;
   margin: 0 20px 0 20px;
   font-size: 1.5rem;
+  padding: 10px;
+}
+
+.navigatie :hover {
+  background-color: #756F9D;
+  color: white;
+  border-radius: 20px;
 }
 
 section {
@@ -61,7 +69,7 @@ section .tweede h1 {
   color: #756F9D;
   font-size: 3.5rem;
   text-shadow: 4px 4px 4px #aaa;
-  font-family: 'Dancing Script', 'serif';
+  font-family: 'Dancing Script', 'cursive';
 }
 
 section .tweede h2 {
@@ -73,7 +81,12 @@ section .tweede h2 {
 
 section .tweede p {
   color: #262626;
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+section .tweede p a {
+  text-decoration: none;
+  color: #262626;
 }
 
 .werkervaring {
@@ -107,7 +120,7 @@ section .tweede p {
   color: #756F9D;
   font-size: 3.5rem;
   text-shadow: 4px 4px 4px #aaa;
-  font-family: 'Dancing Script', 'serif';
+  font-family: 'Dancing Script', 'cursive';
 }
 
 .werkervaring .tweede h2 {
@@ -119,7 +132,7 @@ section .tweede p {
 
 .werkervaring .tweede p {
   color: #262626;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .opleidingen {
@@ -153,7 +166,7 @@ section .tweede p {
   color: #756F9D;
   font-size: 3.5rem;
   text-shadow: 4px 4px 4px #aaa;
-  font-family: 'Dancing Script', 'serif';
+  font-family: 'Dancing Script', 'cursive';
 }
 
 .opleidingen .tweede h2 {
@@ -165,7 +178,7 @@ section .tweede p {
 
 .opleidingen .tweede p {
   color: #262626;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .skills {
@@ -199,7 +212,7 @@ section .tweede p {
   color: #756F9D;
   font-size: 3.5rem;
   text-shadow: 4px 4px 4px #aaa;
-  font-family: 'Dancing Script', 'serif';
+  font-family: 'Dancing Script', 'cursive';
 }
 
 .skills .tweede h2 {
@@ -211,7 +224,7 @@ section .tweede p {
 
 .skills .tweede p {
   color: #262626;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .talen {
@@ -244,7 +257,7 @@ section .tweede p {
   color: #756F9D;
   font-size: 3.5rem;
   text-shadow: 4px 4px 4px #aaa;
-  font-family: 'Dancing Script', 'serif';
+  font-family: 'Dancing Script', 'cursive';
 }
 
 .talen .tweede h2 {
@@ -256,6 +269,67 @@ section .tweede p {
 
 .talen .tweede p {
   color: #262626;
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 80%;
+    background-color: green;
+    margin: 0 auto;
+  }
+  .navigatie {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .navigatie a {
+    display: block;
+    text-align: center;
+  }
+  .navigatie :hover {
+    background-color: #756F9D;
+    color: white;
+    border-radius: 20px;
+  }
+  section {
+    display: block;
+  }
+  section .eerste,
+  section .tweede {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .werkervaring {
+    display: block;
+  }
+  .werkervaring .eerste,
+  .werkervaring .tweede {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .opleidingen {
+    display: block;
+  }
+  .opleidingen .eerste,
+  .opleidingen .tweede {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills {
+    display: block;
+  }
+  .skills .eerste,
+  .skills .tweede {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .talen {
+    display: block;
+  }
+  .talen .eerste,
+  .talen .tweede {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

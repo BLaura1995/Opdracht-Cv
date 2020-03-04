@@ -1,0 +1,128 @@
+@import "voorkeuren";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(117, 111, 157, 1));
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigatie {
+    text-align: right;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px 0 20px;
+        font-size: 1.5rem;
+    }
+}
+
+section {
+    @include flex-grid(2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .eerste {
+        @include border;
+        background-color: red;
+        width: 30%;
+        margin-right: 10px;
+    }
+    .tweede {
+        @include border;
+        background-color: $kleurgroen;
+        width: 40%;
+        text-align: center;
+        h1 {
+            @include h1;
+        }
+    }
+}
+
+.werkervaring {
+    @include flex-grid(2);
+    margin-bottom: 20px;
+    .eerste {
+        @include border;
+        background-color: red;
+        width: 30%;
+    }
+    .tweede {
+        @include border;
+        background-color: $kleurgroen;
+        width: 40%;
+        margin-right: 10px;
+        text-align: center;
+        h1 {
+            @include h1;
+        }
+    }
+}
+
+.opleidingen {
+    @include flex-grid(2);
+    margin-bottom: 20px;
+    .eerste {
+        @include border;
+        background-color: red;
+        width: 30%;
+        margin-right: 10px;
+    }
+    .tweede {
+        @include border;
+        background-color: $kleurgroen;
+        width: 40%;
+        text-align: center;
+        h1 {
+            @include h1;
+        }
+    }
+}
+
+.skills {
+    @include flex-grid(2);
+    margin-bottom: 20px;
+    .eerste {
+        @include border;
+        background-color: red;
+        width: 30%;
+    }
+    .tweede {
+        @include border;
+        background-color: $kleurgroen;
+        width: 40%;
+        margin-right: 10px;
+        text-align: center;
+        h1 {
+            @include h1;
+        }
+    }
+}
+
+.talen {
+    @include flex-grid(2);
+    .eerste {
+        @include border;
+        background-color: red;
+        width: 30%;
+        margin-right: 10px;
+    }
+    .tweede {
+        @include border;
+        background-color: $kleurgroen;
+        width: 40%;
+        text-align: center;
+        h1 {
+            @include h1;
+        }
+    }
+}

@@ -1,1 +1,201 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(#756f9d));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), #756f9d);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navigatie {
+  text-align: right;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navigatie a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+  font-size: 1.5rem;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section .eerste {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: red;
+  width: 30%;
+  margin-right: 10px;
+}
+
+section .tweede {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: #B8E5D1;
+  width: 40%;
+  text-align: center;
+}
+
+section .tweede h1 {
+  padding-bottom: 15px;
+  color: #756F9D;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Dancing Script', 'serif';
+}
+
+.werkervaring {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.werkervaring .eerste {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: red;
+  width: 30%;
+}
+
+.werkervaring .tweede {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: #B8E5D1;
+  width: 40%;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.werkervaring .tweede h1 {
+  padding-bottom: 15px;
+  color: #756F9D;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Dancing Script', 'serif';
+}
+
+.opleidingen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.opleidingen .eerste {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: red;
+  width: 30%;
+  margin-right: 10px;
+}
+
+.opleidingen .tweede {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: #B8E5D1;
+  width: 40%;
+  text-align: center;
+}
+
+.opleidingen .tweede h1 {
+  padding-bottom: 15px;
+  color: #756F9D;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Dancing Script', 'serif';
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skills .eerste {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: red;
+  width: 30%;
+}
+
+.skills .tweede {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: #B8E5D1;
+  width: 40%;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.skills .tweede h1 {
+  padding-bottom: 15px;
+  color: #756F9D;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Dancing Script', 'serif';
+}
+
+.talen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.talen .eerste {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: red;
+  width: 30%;
+  margin-right: 10px;
+}
+
+.talen .tweede {
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: #B8E5D1;
+  width: 40%;
+  text-align: center;
+}
+
+.talen .tweede h1 {
+  padding-bottom: 15px;
+  color: #756F9D;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Dancing Script', 'serif';
+}
+/*# sourceMappingURL=style.css.map */

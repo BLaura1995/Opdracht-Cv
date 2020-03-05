@@ -20,7 +20,7 @@ body {
   text-align: right;
   padding: 10px;
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 .navigatie a {
@@ -44,8 +44,6 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 section .eerste {
@@ -54,6 +52,7 @@ section .eerste {
   background-color: red;
   width: 30%;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 section .tweede {
@@ -62,6 +61,7 @@ section .tweede {
   background-color: #B8E5D1;
   width: 40%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 section .tweede h1 {
@@ -96,7 +96,6 @@ section .tweede p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 20px;
 }
 
 .werkervaring .eerste {
@@ -104,6 +103,7 @@ section .tweede p a {
   border-radius: 5px;
   background-color: red;
   width: 30%;
+  margin-bottom: 20px;
 }
 
 .werkervaring .tweede {
@@ -113,6 +113,7 @@ section .tweede p a {
   width: 40%;
   margin-right: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .werkervaring .tweede h1 {
@@ -142,7 +143,6 @@ section .tweede p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 20px;
 }
 
 .opleidingen .eerste {
@@ -151,6 +151,7 @@ section .tweede p a {
   background-color: red;
   width: 30%;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .opleidingen .tweede {
@@ -159,6 +160,7 @@ section .tweede p a {
   background-color: #B8E5D1;
   width: 40%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .opleidingen .tweede h1 {
@@ -188,7 +190,6 @@ section .tweede p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 20px;
 }
 
 .skills .eerste {
@@ -196,6 +197,7 @@ section .tweede p a {
   border-radius: 5px;
   background-color: red;
   width: 30%;
+  margin-bottom: 20px;
 }
 
 .skills .tweede {
@@ -205,6 +207,7 @@ section .tweede p a {
   width: 40%;
   margin-right: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .skills .tweede h1 {
@@ -242,6 +245,7 @@ section .tweede p a {
   background-color: red;
   width: 30%;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .talen .tweede {
@@ -250,6 +254,7 @@ section .tweede p a {
   background-color: #B8E5D1;
   width: 40%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .talen .tweede h1 {
@@ -275,61 +280,31 @@ section .tweede p a {
 @media screen and (max-width: 800px) {
   .container {
     width: 80%;
+    margin: 0 auto;
     background-color: green;
-    margin: 0 auto;
-  }
-  .navigatie {
-    width: 50%;
-    margin: 0 auto;
   }
   .navigatie a {
     display: block;
     text-align: center;
   }
-  .navigatie :hover {
-    background-color: #756F9D;
-    color: white;
-    border-radius: 20px;
-  }
-  section {
-    display: block;
-  }
-  section .eerste,
-  section .tweede {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .werkervaring {
-    display: block;
-  }
-  .werkervaring .eerste,
-  .werkervaring .tweede {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .opleidingen {
-    display: block;
-  }
-  .opleidingen .eerste,
-  .opleidingen .tweede {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .skills {
-    display: block;
-  }
-  .skills .eerste,
-  .skills .tweede {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+  section,
+  .werkervaring,
+  .opleidingen,
+  .skills,
   .talen {
     display: block;
   }
+  section .eerste,
+  section .tweede,
+  .werkervaring .eerste,
+  .werkervaring .tweede,
+  .opleidingen .eerste,
+  .opleidingen .tweede,
+  .skills .eerste,
+  .skills .tweede,
   .talen .eerste,
   .talen .tweede {
     width: 100%;
-    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

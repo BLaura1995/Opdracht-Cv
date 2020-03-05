@@ -1,245 +1,214 @@
-@import "voorkeuren";
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(117, 111, 157, 1));
-    font-family: 'Mukta', sans-serif;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.navigatie {
-    text-align: right;
-    padding: 10px;
-    width: 70%;
-    margin: 0 auto;
-    a {
-        color: white;
-        text-decoration: none;
-        margin: 0 20px 0 20px;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    & :hover {
-        background-color: #756F9D;
-        color: white;
-        border-radius: 20px;
-    }
-}
-
-section {
-    @include flex-grid(2);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    .eerste {
-        @include border;
-        background-color: red;
-        width: 30%;
-        margin-right: 10px;
-    }
-    .tweede {
-        @include border;
-        background-color: $kleurgroen;
-        width: 40%;
-        text-align: center;
-        h1 {
-            @include h1;
-        }
-        h2 {
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            color: #fff;
-            font-size: 1rem;
-        }
-        p {
-            @include p;
-            a {
-                text-decoration: none;
-                color: #262626;
-            }
-        }
-    }
-}
-
-.werkervaring {
-    @include flex-grid(2);
-    margin-bottom: 20px;
-    .eerste {
-        @include border;
-        background-color: red;
-        width: 30%;
-    }
-    .tweede {
-        @include border;
-        background-color: $kleurgroen;
-        width: 40%;
-        margin-right: 10px;
-        text-align: center;
-        h1 {
-            @include h1;
-        }
-        h2 {
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            color: #fff;
-            font-size: 1rem;
-        }
-        p {
-            @include p;
-        }
-    }
-}
-
-.opleidingen {
-    @include flex-grid(2);
-    margin-bottom: 20px;
-    .eerste {
-        @include border;
-        background-color: red;
-        width: 30%;
-        margin-right: 10px;
-    }
-    .tweede {
-        @include border;
-        background-color: $kleurgroen;
-        width: 40%;
-        text-align: center;
-        h1 {
-            @include h1;
-        }
-        h2 {
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            color: #fff;
-            font-size: 1rem;
-        }
-        p {
-            @include p;
-        }
-    }
-}
-
-.skills {
-    @include flex-grid(2);
-    margin-bottom: 20px;
-    .eerste {
-        @include border;
-        background-color: red;
-        width: 30%;
-    }
-    .tweede {
-        @include border;
-        background-color: $kleurgroen;
-        width: 40%;
-        margin-right: 10px;
-        text-align: center;
-        h1 {
-            @include h1;
-        }
-        h2 {
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            color: #fff;
-            font-size: 1rem;
-        }
-        p {
-            @include p;
-        }
-    }
-}
-
-.talen {
-    @include flex-grid(2);
-    .eerste {
-        @include border;
-        background-color: red;
-        width: 30%;
-        margin-right: 10px;
-    }
-    .tweede {
-        @include border;
-        background-color: $kleurgroen;
-        width: 40%;
-        text-align: center;
-        h1 {
-            @include h1;
-        }
-        h2 {
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            color: #fff;
-            font-size: 1rem;
-        }
-        p {
-            @include p;
-        }
-    }
-}
-
-@media screen and (max-width:800px) {
-    .container {
-        width: 80%;
-        background-color: green;
-        margin: 0 auto;
-    }
-    .navigatie {
-        width: 50%;
-        margin: 0 auto;
-        a {
-            display: block;
-            text-align: center;
-        }
-        & :hover {
-            background-color: #756F9D;
-            color: white;
-            border-radius: 20px;
-        }
-    }
-    section {
-        display: block;
-        .eerste,
-        .tweede {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-    }
-    .werkervaring {
-        display: block;
-        .eerste,
-        .tweede {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-    }
-    .opleidingen {
-        display: block;
-        .eerste,
-        .tweede {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-    }
-    .skills {
-        display: block;
-        .eerste,
-        .tweede {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-    }
-    .talen {
-        display: block;
-        .eerste,
-        .tweede {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-    }
-}
+ @import "voorkeuren";
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(117, 111, 157, 1));
+     font-family: 'Mukta', sans-serif;
+ }
+ 
+ .container {
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ .navigatie {
+     text-align: right;
+     padding: 10px;
+     width: 70%;
+     margin: 0 auto 10px;
+     a {
+         color: white;
+         text-decoration: none;
+         margin: 0 20px 0 20px;
+         font-size: 1.5rem;
+         padding: 10px;
+     }
+     & :hover {
+         background-color: #756F9D;
+         color: white;
+         border-radius: 20px;
+     }
+ }
+ 
+ section {
+     @include flex-grid(2);
+     .eerste {
+         @include border;
+         background-color: red;
+         width: 30%;
+         margin-right: 10px;
+         margin-bottom: 20px;
+     }
+     .tweede {
+         @include border;
+         background-color: $kleurgroen;
+         width: 40%;
+         text-align: center;
+         margin-bottom: 20px;
+         h1 {
+             @include h1;
+         }
+         h2 {
+             text-transform: uppercase;
+             margin-bottom: 10px;
+             color: #fff;
+             font-size: 1rem;
+         }
+         p {
+             @include p;
+             a {
+                 text-decoration: none;
+                 color: #262626;
+             }
+         }
+     }
+ }
+ 
+ .werkervaring {
+     @include flex-grid(2);
+     .eerste {
+         @include border;
+         background-color: red;
+         width: 30%;
+         margin-bottom: 20px;
+     }
+     .tweede {
+         @include border;
+         background-color: $kleurgroen;
+         width: 40%;
+         margin-right: 10px;
+         text-align: center;
+         margin-bottom: 20px;
+         h1 {
+             @include h1;
+         }
+         h2 {
+             text-transform: uppercase;
+             margin-bottom: 10px;
+             color: #fff;
+             font-size: 1rem;
+         }
+         p {
+             @include p;
+         }
+     }
+ }
+ 
+ .opleidingen {
+     @include flex-grid(2);
+     .eerste {
+         @include border;
+         background-color: red;
+         width: 30%;
+         margin-right: 10px;
+         margin-bottom: 20px;
+     }
+     .tweede {
+         @include border;
+         background-color: $kleurgroen;
+         width: 40%;
+         text-align: center;
+         margin-bottom: 20px;
+         h1 {
+             @include h1;
+         }
+         h2 {
+             text-transform: uppercase;
+             margin-bottom: 10px;
+             color: #fff;
+             font-size: 1rem;
+         }
+         p {
+             @include p;
+         }
+     }
+ }
+ 
+ .skills {
+     @include flex-grid(2);
+     .eerste {
+         @include border;
+         background-color: red;
+         width: 30%;
+         margin-bottom: 20px;
+     }
+     .tweede {
+         @include border;
+         background-color: $kleurgroen;
+         width: 40%;
+         margin-right: 10px;
+         text-align: center;
+         margin-bottom: 20px;
+         h1 {
+             @include h1;
+         }
+         h2 {
+             text-transform: uppercase;
+             margin-bottom: 10px;
+             color: #fff;
+             font-size: 1rem;
+         }
+         p {
+             @include p;
+         }
+     }
+ }
+ 
+ .talen {
+     @include flex-grid(2);
+     .eerste {
+         @include border;
+         background-color: red;
+         width: 30%;
+         margin-right: 10px;
+         margin-bottom: 20px;
+     }
+     .tweede {
+         @include border;
+         background-color: $kleurgroen;
+         width: 40%;
+         text-align: center;
+         margin-bottom: 20px;
+         h1 {
+             @include h1;
+         }
+         h2 {
+             text-transform: uppercase;
+             margin-bottom: 10px;
+             color: #fff;
+             font-size: 1rem;
+         }
+         p {
+             @include p;
+         }
+     }
+ }
+ 
+ @media screen and (max-width:800px) {
+     .container {
+         width: 80%;
+         margin: 0 auto;
+         background-color: green;
+     }
+     .navigatie {
+         a {
+             display: block;
+             text-align: center;
+         }
+     }
+     section,
+     .werkervaring,
+     .opleidingen,
+     .skills,
+     .talen {
+         display: block;
+         .eerste,
+         .tweede {
+             width: 100%;
+         }
+     }
+ }

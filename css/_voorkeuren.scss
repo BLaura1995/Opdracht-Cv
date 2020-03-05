@@ -5,16 +5,17 @@ $kleurgroen: #B8E5D1;
 }
 
 @mixin h1 {
+    padding-top: 10px;
     padding-bottom: 15px;
     color: #756F9D;
-    font-size: 3.5rem;
+    font-size: 4rem;
     text-shadow: 4px 4px 4px #aaa;
     font-family: 'Dancing Script', 'cursive';
 }
 
 @mixin p {
     color: #262626;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 @mixin border {

@@ -65,9 +65,10 @@ section .tweede {
 }
 
 section .tweede h1 {
+  padding-top: 10px;
   padding-bottom: 15px;
   color: #756F9D;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-shadow: 4px 4px 4px #aaa;
   font-family: 'Dancing Script', 'cursive';
 }
@@ -76,12 +77,12 @@ section .tweede h2 {
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 
 section .tweede p {
   color: #262626;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 section .tweede p a {
@@ -117,9 +118,10 @@ section .tweede p a {
 }
 
 .werkervaring .tweede h1 {
+  padding-top: 10px;
   padding-bottom: 15px;
   color: #756F9D;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-shadow: 4px 4px 4px #aaa;
   font-family: 'Dancing Script', 'cursive';
 }
@@ -133,7 +135,7 @@ section .tweede p a {
 
 .werkervaring .tweede p {
   color: #262626;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .opleidingen {
@@ -148,7 +150,6 @@ section .tweede p a {
 .opleidingen .eerste {
   border: 5px solid white;
   border-radius: 5px;
-  background-color: red;
   width: 30%;
   margin-right: 10px;
   margin-bottom: 20px;
@@ -164,9 +165,10 @@ section .tweede p a {
 }
 
 .opleidingen .tweede h1 {
+  padding-top: 10px;
   padding-bottom: 15px;
   color: #756F9D;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-shadow: 4px 4px 4px #aaa;
   font-family: 'Dancing Script', 'cursive';
 }
@@ -180,7 +182,7 @@ section .tweede p a {
 
 .opleidingen .tweede p {
   color: #262626;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .skills {
@@ -195,7 +197,6 @@ section .tweede p a {
 .skills .eerste {
   border: 5px solid white;
   border-radius: 5px;
-  background-color: red;
   width: 30%;
   margin-bottom: 20px;
 }
@@ -211,9 +212,10 @@ section .tweede p a {
 }
 
 .skills .tweede h1 {
+  padding-top: 10px;
   padding-bottom: 15px;
   color: #756F9D;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-shadow: 4px 4px 4px #aaa;
   font-family: 'Dancing Script', 'cursive';
 }
@@ -227,7 +229,7 @@ section .tweede p a {
 
 .skills .tweede p {
   color: #262626;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .talen {
@@ -242,7 +244,6 @@ section .tweede p a {
 .talen .eerste {
   border: 5px solid white;
   border-radius: 5px;
-  background-color: red;
   width: 30%;
   margin-right: 10px;
   margin-bottom: 20px;
@@ -258,9 +259,10 @@ section .tweede p a {
 }
 
 .talen .tweede h1 {
+  padding-top: 10px;
   padding-bottom: 15px;
   color: #756F9D;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-shadow: 4px 4px 4px #aaa;
   font-family: 'Dancing Script', 'cursive';
 }
@@ -274,14 +276,13 @@ section .tweede p a {
 
 .talen .tweede p {
   color: #262626;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 800px) {
   .container {
     width: 80%;
     margin: 0 auto;
-    background-color: green;
   }
   .navigatie a {
     display: block;
